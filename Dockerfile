@@ -1,7 +1,7 @@
-FROM debian:9
+FROM debian:10
 
 LABEL maintainer="Alexis Pereda <alexis@pereda.fr>"
-LABEL version="0.1"
+LABEL version="0.2"
 LABEL description="nodejs 10"
 
 RUN DEBIAN_FRONTEND=noninteractive apt update \
